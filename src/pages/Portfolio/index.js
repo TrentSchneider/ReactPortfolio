@@ -4,15 +4,15 @@ import projects from "../../data/portData.json"
 
 function Portfolio() {
   return (
-    <section class="bg-white homeBack h-100 TBBuffer">
-      <section class="col-sm-12 bg-white cardCenter">
-        <section class="card-body">
-          <h4 class="portTitle lowBorder contactCardHead font-weight-bold">
+    <section className="bg-white homeBack h-100 TBBuffer">
+      <section className="col-sm-12 bg-white cardCenter">
+        <section className="card-body">
+          <h4 className="portTitle lowBorder contactCardHead font-weight-bold">
             Portfolio
           </h4>
-          <div class="container">
+          <div className="container">
               {/* first row */}
-            <div class="row d-flex justify-content-around">
+            <div className="row d-flex justify-content-around">
               <PortCard projects={projects}/>
             </div>
             <br />

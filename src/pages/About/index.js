@@ -2,19 +2,19 @@ import React from "react";
 
 function About() {
   return (
-    <section class="bg-white homeBack TBBuffer">
-      <section class="col-sm-12 bg-white cardCenter">
-        <section class="card-body">
-          <h4 class="portTitle lowBorder contactCardHead font-weight-bold mb-3">
+    <section className="bg-white homeBack TBBuffer">
+      <section className="col-sm-12 bg-white cardCenter">
+        <section className="card-body">
+          <h4 className="portTitle lowBorder contactCardHead font-weight-bold mb-3">
             About Me
           </h4>
-          <div class="container noMarg">
-            <div class="row">
+          <div className="container noMarg">
+            <div className="row">
               <div
                 id="profPic"
-                class="card float-left noBord col-sm-12 col-md-5 col-lg-3"
+                className="card float-left noBord col-sm-12 col-md-5 col-lg-3"
               ></div>
-              <p class="float-left m-3 card p-3 col-sm-12 col-md-6 col-lg-8 cardBack">
+              <p className="float-left m-3 card p-3 col-sm-12 col-md-6 col-lg-8 cardBack">
                 My name is Trent Schneider.
                 <br />
                 In a past life, I worked in game development and IT. Now, I am
