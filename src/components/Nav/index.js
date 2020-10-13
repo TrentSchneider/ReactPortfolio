@@ -12,28 +12,28 @@ function Nav() {
       <nav className="my-2 my-md-0 mr-md-3">
         <a
           className="px-2 text-black-50 border-right"
-          href="index.html"
+          href="/"
           title="Go to About page."
         >
           Home
         </a>
         <a
           className="px-2 text-black-50 border-right"
-          href="about.html"
+          href="/about"
           title="Go to About page."
         >
           About
         </a>
         <a
           className="px-2 text-black-50 border-right"
-          href="portfolio.html"
+          href="/portfolio"
           title="Go to Portfolio page."
         >
           Portfolio
         </a>
         <a
           className="px-2 text-black-50"
-          href="contact.html"
+          href="/contact"
           title="Go to Contact page."
         >
           Contact
