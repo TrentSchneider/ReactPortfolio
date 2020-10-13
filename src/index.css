@@ -1,13 +1,121 @@
+html,
 body {
+  height: 90%;
+}
+#navBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.fonter {
+  font-family: "Heebo", sans-serif;
+}
+.noBord {
+  border: 0;
+}
+.noMarg {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+.noPad {
+  padding: 0;
+}
+.styleFont {
+  font-family: "Dancing Script", cursive;
+}
+.TBBuffer {
+  margin-top: 110px;
+  margin-bottom: 35px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+  background-color: white;
+}
+.projSquare {
+  margin: 5px;
+}
+#homeBackground {
+  background-image: url("images/mobileBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: center;
+  background-color: none;
+}
+.contIcon {
+  width: 75px;
+  height: auto;
+}
+#phone {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.topBuff {
+  margin-top: 10px;
+}
+.cardBack {
+  background-color: rgb(243, 240, 240);
+}
+#profPic {
+  background-image: url("images/Picture.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 160px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* small */
+@media (min-width: 576px) {
+  .homeBack {
+    margin: 0;
+  }
+  .cardCenter {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .aboutText {
+    margin-top: 0;
+  }
+  .iconPosition {
+    justify-content: center;
+  }
+  #profPic {
+    height: 160px;
+  }
+}
+
+/* medium */
+@media (min-width: 768px) {
+  .homeBack {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .TBBuffer {
+    margin-top: 70px;
+    margin-bottom: 35px;
+  }
+  .cardCenter {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #profPic {
+    height: 320px;
+  }
+  .aboutText {
+    margin-top: 16px;
+  }
+  .iconPosition {
+    justify-content: flex-end;
+  }
+  #homeBackground {
+    background-image: url("images/HomeBackground.jpg");
+  }
+}
+/* large */
+@media (min-width: 992px) {
+  #homeBackground {
+    background-size: cover;
+  }
 }
