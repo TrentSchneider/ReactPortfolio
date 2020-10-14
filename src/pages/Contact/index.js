@@ -1,7 +1,7 @@
 import React from "react";
-import linkedInIcon from "../../images/linkedin.png"
-import githubIcon from "../../images/githubIcon.png"
-import emailIcon from "../../images/email.png"
+import linkedInIcon from "../../images/linkedin.png";
+import githubIcon from "../../images/githubIcon.png";
+import emailIcon from "../../images/email.png";
 function Contact() {
   return (
     <section className="bg-white homeBack h-100 TBBuffer">
@@ -53,11 +53,7 @@ function Contact() {
               <div className="row mb-3">
                 <div className="d-flex iconPosition col-sm-12 col-md-6">
                   <a href="https://github.com/TrentSchneider">
-                    <img
-                      src={githubIcon}
-                      alt="Github"
-                      className="contIcon"
-                    />
+                    <img src={githubIcon} alt="Github" className="contIcon" />
                   </a>
                   <a href="https://www.linkedin.com/in/trentonschneider/">
                     <img
@@ -67,11 +63,7 @@ function Contact() {
                     />
                   </a>
                   <a href="mailto:trentonschneider@gmail.com">
-                    <img
-                      src={emailIcon}
-                      alt="Email"
-                      className="contIcon"
-                    />
+                    <img src={emailIcon} alt="Email" className="contIcon" />
                   </a>
                 </div>
                 <h4
