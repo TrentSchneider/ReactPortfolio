@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -11,7 +10,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <Router>
-      <div>
+      <div className="midHeight">
         <Nav />
         <Switch>
           <Route exact path="/">

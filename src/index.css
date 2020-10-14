@@ -2,6 +2,10 @@ html,
 body {
   height: 90%;
 }
+#root,
+.midHeight {
+  height: 100%;
+}
 #navBar {
   position: fixed;
   top: 0;
