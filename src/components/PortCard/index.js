@@ -3,9 +3,9 @@ import React from "react";
 function PortCard(props) {
   return (
     <div className="row d-flex justify-content-around">
-      {props.projects.map(data => (
-        <div className="card card-title projSquare column col-sm-12 col-md-3 cardBack">
-          <a href={data.link}>
+      {props.projects.map((data, i) => (
+        <div className="card card-title projSquare column col-sm-12 col-md-3 cardBack" key={i}>
+          <a href={data.link} rel="noopener noreferrer" target="_blank">
             <img
               className="float-left img-fluid topBuff"
               src={data.image}
