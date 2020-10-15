@@ -1,6 +1,6 @@
 import React from "react";
-import PortCard from "../../components/PortCard"
-import projects from "../../data/portData.json"
+import PortCard from "../../components/PortCard";
+import projects from "../../data/portData";
 
 function Portfolio() {
   return (
@@ -11,12 +11,9 @@ function Portfolio() {
             Portfolio
           </h4>
           <div className="container">
-              {/* first row */}
-            <div className="row d-flex justify-content-around">
-              <PortCard projects={projects}/>
-            </div>
-            <br />
+            <PortCard projects={projects} />
           </div>
+          <br />
         </section>
       </section>
     </section>
