@@ -3,7 +3,7 @@ const projects = [
     title: "CarVets",
     link: "https://trentschneider.github.io/CarVets/",
     github: "https://github.com/TrentSchneider/CarVets",
-    image: "../../images/CarVets.png",
+    image: "images/CarVets.png",
     description:
       "A site using google's maps javascript, maps place, and maps URL APIs that locates car repair shops near the user's current location."
   },
@@ -11,7 +11,7 @@ const projects = [
     title: "UWiki",
     link: "http://project2-uwiki.herokuapp.com/",
     github: "https://github.com/TrentSchneider/UWiki",
-    image: "Assets/CSS/Images/UWiki.png",
+    image: "images/UWiki.png",
     description:
       "A wiki site that uses sequelize and a SQL database to allow users to create wiki articles and view the wiki articles of others."
   },
@@ -19,7 +19,7 @@ const projects = [
     title: "Weather Dashboard",
     link: "https://trentschneider.github.io/WeatherDashboard/",
     github: "https://github.com/TrentSchneider/WeatherDashboard",
-    image: "Assets/CSS/Images/Weather.png",
+    image: "images/Weather.png",
     description:
       "A site using OpenWeatherMap API that shows the current and five day weather for the user's current location or a location that they search."
   },
@@ -27,7 +27,7 @@ const projects = [
     title: "Daily Planner",
     link: "https://trentschneider.github.io/DailyPlanner/",
     github: "https://github.com/TrentSchneider/DailyPlanner",
-    image: "Assets/CSS/Images/Planner.png",
+    image: "images/Planner.png",
     description:
       "A site using moment.js to create a dayplanner for the user. The user's entries will be stored in their local storage for future reference."
   },
@@ -35,7 +35,7 @@ const projects = [
     title: "Note Taker",
     link: "https://blooming-refuge-65411.herokuapp.com/",
     github: "https://github.com/TrentSchneider/NoteTaker",
-    image: "Assets/CSS/Images/NoteTaker.png",
+    image: "images/NoteTaker.png",
     description:
       "A note taking app that allows users to create, edit, and delete their notes."
   },
@@ -43,7 +43,7 @@ const projects = [
     title: "Employee Manager",
     link: "",
     github: "https://github.com/TrentSchneider/EmployeeManager",
-    image: "Assets/CSS/Images/EmployeeManager.png",
+    image: "images/EmployeeManager.png",
     description:
       "A JS CLI application using a SQL database that allows users to add employees, set their managers, add employee roles, and add and set employee departments. It then allows the user to view all of this data as tables."
   }
