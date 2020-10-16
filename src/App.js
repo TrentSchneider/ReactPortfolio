@@ -13,16 +13,16 @@ function App() {
       <div className="midHeight">
         <Nav />
         <Switch>
-          <Route exact path="/">
+          <Route exact path={["/ReactPortfolio/", "/ReactPortfolio/home"]}>
             <Home />
           </Route>
-          <Route exact path="/about">
+          <Route exact path="/ReactPortfolio/about">
             <About />
           </Route>
-          <Route exact path="/portfolio">
+          <Route exact path="/ReactPortfolio/portfolio">
             <Portfolio />
           </Route>
-          <Route exact path="/contact">
+          <Route exact path="/ReactPortfolio/contact">
             <Contact />
           </Route>
         </Switch>
