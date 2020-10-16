@@ -12,28 +12,28 @@ function Nav() {
       <nav className="my-2 my-md-0 mr-md-3">
         <a
           className="px-2 text-black-50 border-right"
-          href="/ReactPortfolio/home"
+          href="/home"
           title="Go to About page."
         >
           Home
         </a>
         <a
           className="px-2 text-black-50 border-right"
-          href="/ReactPortfolio/about"
+          href="/about"
           title="Go to About page."
         >
           About
         </a>
         <a
           className="px-2 text-black-50 border-right"
-          href="/ReactPortfolio/portfolio"
+          href="/portfolio"
           title="Go to Portfolio page."
         >
           Portfolio
         </a>
         <a
           className="px-2 text-black-50"
-          href="/ReactPortfolio/contact"
+          href="/contact"
           title="Go to Contact page."
         >
           Contact
