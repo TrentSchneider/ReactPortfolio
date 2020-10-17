@@ -9,11 +9,11 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="midHeight">
         <Nav />
         <Switch>
-          <Route exact path="/">
+          <Route exact path={["/", "/home"]}>
             <Home />
           </Route>
           <Route exact path="/about">
