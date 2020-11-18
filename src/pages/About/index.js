@@ -24,7 +24,7 @@ function About() {
                 be done to fulfill the vision of each page. <br />
                 <br />
                 See my resume here for more:
-                <a href="Assets/Files/Trenton Schneider Resume.pdf" download>
+                <a href="./TrentonSchneiderResume.pdf" download>
                   download
                 </a>
               </p>
