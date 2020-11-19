@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "./TrentonSchneiderResume.pdf";
 
 function About() {
   return (
@@ -24,7 +25,7 @@ function About() {
                 be done to fulfill the vision of each page. <br />
                 <br />
                 See my resume here for more:
-                <a href="./TrentonSchneiderResume.pdf" download>
+                <a href={Resume} target="_blank" rel="noopener noreferrer">
                   download
                 </a>
               </p>
