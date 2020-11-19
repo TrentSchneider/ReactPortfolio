@@ -5,6 +5,10 @@ body {
 .wf {
   color: white;
 }
+.va {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 #root,
 .midHeight {
   height: 100%;
