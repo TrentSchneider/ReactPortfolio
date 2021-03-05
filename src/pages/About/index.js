@@ -24,10 +24,11 @@ function About() {
                 project I can be a part of as I work out and solve what needs to
                 be done to fulfill the vision of each page. <br />
                 <br />
-                See my resume{" "}
-                <a href={Resume} target="_blank" rel="noopener noreferrer">
-                  here
-                </a>
+                See my resume <span>
+                  <a href={Resume} target="_blank" rel="noopener noreferrer">
+                    here
+                  </a>
+                </span>
               </p>
             </div>
           </div>
