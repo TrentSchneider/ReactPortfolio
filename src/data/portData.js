@@ -1,11 +1,11 @@
 const projects = [
   {
-    title: "CarVets",
-    link: "https://trentschneider.github.io/CarVets/",
-    github: "https://github.com/TrentSchneider/CarVets",
-    image: "images/CarVets.png",
+    title: "CineCenter",
+    link: "https://cinecenter.herokuapp.com/",
+    github: "https://github.com/TrentSchneider/CineCenter",
+    image: "images/CineCenter.png",
     description:
-      "A site using google's maps javascript, maps place, and maps URL APIs that locates car repair shops near the user's current location."
+      "A full MERN site using Google Maps API, Google Youtube API, and the OMDB API to create a one stop shop for your movie info needs."
   },
   {
     title: "UWiki",
